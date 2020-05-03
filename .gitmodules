@@ -1,0 +1,54 @@
+[submodule "colour-science-ansible"]
+	path = colour-science-ansible
+	url = https://github.com/colour-science/colour-science-ansible
+[submodule "awesome-colour"]
+	path = awesome-colour
+	url = https://github.com/colour-science/awesome-colour.git
+[submodule "colour"]
+	path = colour
+	url = https://github.com/colour-science/colour.git
+[submodule "colour-checker-detection"]
+	path = colour-checker-detection
+	url = https://github.com/colour-science/colour-checker-detection.git
+[submodule "colour-analysis-three.js"]
+	path = colour-analysis-three.js
+	url = https://github.com/colour-science/colour-analysis-three.js.git
+[submodule "colour-datasets"]
+	path = colour-datasets
+	url = https://github.com/colour-science/colour-datasets.git
+[submodule "colour-demosaicing"]
+	path = colour-demosaicing
+	url = https://github.com/colour-science/colour-demosaicing.git
+[submodule "colour-dash"]
+	path = colour-dash
+	url = https://github.com/colour-science/colour-dash.git
+[submodule "colour-hdri"]
+	path = colour-hdri
+	url = https://github.com/colour-science/colour-hdri.git
+[submodule "colour-science.org"]
+	path = colour-science.org
+	url = https://github.com/colour-science/colour-science.org.git
+[submodule "colour-branding"]
+	path = colour-branding
+	url = https://github.com/colour-science/colour-branding.git
+[submodule "colour-analysis"]
+	path = colour-analysis
+	url = https://github.com/colour-science/colour-analysis.git
+[submodule "colour-mitsuba"]
+	path = colour-mitsuba
+	url = https://github.com/colour-science/colour-mitsuba.git
+[submodule "colour-nuke"]
+	path = colour-nuke
+	url = https://github.com/colour-science/colour-nuke.git
+[submodule "colour-ocean"]
+	path = colour-ocean
+	url = https://github.com/colour-science/colour-ocean.git
+[submodule "colour-playground"]
+	path = colour-playground
+	url = https://github.com/colour-science/colour-playground.git
+[submodule "colour-spectroscope"]
+	path = colour-spectroscope
+	url = https://github.com/colour-science/colour-spectroscope.git
+[submodule "colour-webhook"]
+	path = colour-webhook
+	url = https://github.com/colour-science/colour-webhook.git

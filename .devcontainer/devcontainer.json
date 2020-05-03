@@ -1,0 +1,14 @@
+{
+    "name": "colour-science.devcontainer",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [
+        8888
+    ],
+    "postCreateCommand": "ansible-playbook -vvv --connection=local --inventory 127.0.0.1, /workspaces/colour.devcontainer/colour-science-ansible/ansible/site.yml",
+    "extensions": [
+        "ms-python.python"
+    ]
+}
