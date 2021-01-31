@@ -4,6 +4,9 @@
 #-------------------------------------------------------------------------------------------------------------
 FROM ubuntu:bionic
 
+# https://github.com/python-poetry/poetry/issues/1427#issuecomment-537260307
+ENV LANG C.UTF-8
+
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
