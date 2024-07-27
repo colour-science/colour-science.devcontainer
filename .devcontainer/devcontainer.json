@@ -1,5 +1,5 @@
 {
-    "name": "colour-science.devcontainer",
+    "name": "colour.devcontainer",
     "dockerFile": "Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
@@ -7,6 +7,10 @@
     "forwardPorts": [
         8888
     ],
+    "containerEnv": {
+        "COLOUR_SCIENCE__ROOT_DIRECTORY": "/workspaces/colour.devcontainer",
+        "COLOUR_SCIENCE__ACTIVE_PROJECTS": "colour:colour-hdri"
+    },
     "postCreateCommand": "ansible-playbook -vvv --connection=local --inventory 127.0.0.1, /workspaces/colour.devcontainer/colour-science-ansible/ansible/site.yml",
     "extensions": [
         "ms-python.python"
