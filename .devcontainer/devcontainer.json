@@ -11,7 +11,7 @@
         "COLOUR_SCIENCE__ROOT_DIRECTORY": "/workspaces/colour-science.devcontainer",
         "COLOUR_SCIENCE__ACTIVE_PROJECTS": "colour"
     },
-    "postCreateCommand": "ansible-playbook -vvv --connection=local --inventory 127.0.0.1, $COLOUR_SCIENCE__ROOT_DIRECTORY/colour-science-ansible/ansible/site.yml && source ~/.bashrc",
+    "postCreateCommand": "ansible-playbook -vvv --connection=local --inventory 127.0.0.1, $COLOUR_SCIENCE__ROOT_DIRECTORY/colour-science-ansible/ansible/site.yml",
     "extensions": [
         "ms-python.python"
     ]
